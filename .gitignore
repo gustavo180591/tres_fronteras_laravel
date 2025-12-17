@@ -1,0 +1,126 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment files
+.env
+.env.*.local
+!.env.example
+
+# Laravel 10+ specific
+bootstrap/cache/*
+storage/*.key
+/public/hot
+/public/storage
+/public/build
+
+# Logs
+*.log
+storage/logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+/coverage
+.phpunit.result.cache
+.phpunit.cache
+
+# Local development
+Homestead.json
+Homestead.yaml
+vite.config.js.hmr
+
+# IDE specific files
+.idea
+.vscode
+.fleet
+*.sublime-*
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Deployment related
+/.deploy
+/.env.production
+/.env.staging
+
+# Debugbar
+/debugbar/
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Local development
+.php-cs-fixer.cache
+.php-cs-fixer.php
+.phpcs-cache
+.phpcs.xml.bak
+
+# Laravel specific
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/compiled.php
+
+# Laravel 5 & Lumen specific with public and private storage
+/public/storage
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+dev/
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/
+
+# Laravel 5 & Lumen specific with changed storage directory
+app/storage/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+public/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+public_html/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+www/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+html/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+public_html/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+www/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+html/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+public_html/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+www/
+
+# Laravel 5 & Lumen specific with changed public path & changed storage directory
+html/
